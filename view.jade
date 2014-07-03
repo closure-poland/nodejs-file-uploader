@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        title
+            | Node.js files uploader using FileReader and Socket.io
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
+        script(src="/socket.io/socket.io.js")
+        script(src="/js/main.js")
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        h1
+            | Node.js files uploader using FileReader and Socket.io
+        input(type="file", name="fileToUpload", multiple="multiple", id="fileToUpload")
+        input(type="submit", name="submit", value="Upload", id="buttonToStartUpload")
+        div#progress-container
+            div#progress-bar
+            div#status-percent

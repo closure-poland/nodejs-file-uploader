@@ -1,0 +1,23 @@
+#progress-container {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #000;
+    position: relative;
+}
+#progress-bar {
+    width: 0;
+    height: 20px;
+    background: #F00;
+}
+#status-percent {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    left: 50%;
+    margin-left: -25px;
+    top: 50%;
+    margin-top: -10px;
+    color: #000;
+}
